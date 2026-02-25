@@ -84,6 +84,41 @@ Respuesta:
 
 <img width="903" height="163" alt="image" src="https://github.com/user-attachments/assets/cf4a2ffb-cdb6-4e30-8714-ec1159385fba" />
 
+#### 
+#### Requerimientos funcionales más importantes
+
+Del listado anterior, se seleccionaron los siguientes dos requerimientos funcionales más importantes y se desarrollaron sus respectivos diagramas de casos de uso y sus historias de usuario.
+
+---
+
+### Requerimiento Funcional 1: Gestión de reservas de recursos
+
+| Campo               | Descripción                                                                                     |
+|---------------------|-------------------------------------------------------------------------------------------------|
+| **ID**             | RF-01                                                                                          |
+| **Nombre**         | Gestión de reservas de recursos                                                                |
+| **Descripción**    | El sistema debe permitir a los usuarios realizar reservas de recursos como laboratorios, salones de clase, oficinas, salas de estudio y equipos, siguiendo las reglas específicas de cada tipo de recurso. |
+| **Precondiciones** | Bankify debe tener previamente configurados los recursos disponibles y sus reglas de reserva.   |
+| **Actor**          | Usuario (profesor, monitor o estudiante)                                                       |
+| **Flujo principal**| 1. El usuario selecciona el tipo de recurso a reservar.<br>2. El sistema muestra los recursos disponibles según las reglas configuradas.<br>3. El usuario ingresa los datos de la reserva.<br>4. El sistema valida las reglas y confirma o deniega la reserva. |
+| **Diagrama de caso de uso** | ![Diagrama RF-01](https://github.com/user-attachments/assets/07e67531-b94d-406d-931a-5cb6112ac6c9) |
+| **Poscondiciones** | Se espera como resultado una reserva confirmada o una notificación de denegación con las razones correspondientes. |
+
+---
+
+### Requerimiento Funcional 2: Validación de usuarios y reglas de reserva
+
+| Campo               | Descripción                                                                                     |
+|---------------------|-------------------------------------------------------------------------------------------------|
+| **ID**             | RF-02                                                                                          |
+| **Nombre**         | Validación de usuarios y reglas de reserva                                                     |
+| **Descripción**    | El sistema debe validar que los usuarios cumplan con los requisitos necesarios (profesor, monitor o estudiante) y que las reservas respeten las reglas de tiempo, capacidad y disponibilidad para cada tipo de recurso. |
+| **Precondiciones** | Bankify debe tener previamente configurados los roles de usuario y las reglas específicas de cada recurso. |
+| **Actor**          | Usuario (profesor, monitor o estudiante)                                                       |
+| **Flujo principal**| 1. El usuario intenta realizar una reserva.<br>2. El sistema verifica el rol del usuario.<br>3. El sistema valida las reglas específicas del recurso solicitado.<br>4. El sistema confirma o deniega la reserva. |
+| **Diagrama de caso de uso** | ![Diagrama RF-02](https://github.com/user-attachments/assets/cf4a2ffb-cdb6-4e30-8714-ec1159385fba) |
+| **Poscondiciones** | Se espera como resultado una reserva válida o una notificación de denegación con las razones correspondientes. |
+
 
 
 
