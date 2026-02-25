@@ -76,6 +76,16 @@ Alto rendimiento en la validación y procesamiento de reservas:
 El sistema debe ser capaz de procesar las solicitudes de reserva en menos de 2 segundos, incluso con múltiples usuarios concurrentes.
 
 
+####  Del listado anterior, seleccione los 2 requerimientos funcionales másimportantes del sistema y desarrolle un diagrama de casos de uso con surespectiva historia de usuario. Garantiza que al menos un requerimientofuncional seleccionado utilice un patrón identificado. (Añadirlo al README.md)
+
+Respuesta:
+
+<img width="998" height="372" alt="image" src="https://github.com/user-attachments/assets/07e67531-b94d-406d-931a-5cb6112ac6c9" />
+
+<img width="903" height="163" alt="image" src="https://github.com/user-attachments/assets/cf4a2ffb-cdb6-4e30-8714-ec1159385fba" />
+
+
+
 
 
 
