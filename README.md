@@ -119,8 +119,33 @@ Del listado anterior, se seleccionaron los siguientes dos requerimientos funcion
 | **Diagrama de caso de uso** | ![Diagrama RF-02](https://github.com/user-attachments/assets/cf4a2ffb-cdb6-4e30-8714-ec1159385fba) |
 | **Poscondiciones** | Se espera como resultado una reserva válida o una notificación de denegación con las razones correspondientes. |
 
+#### . Seleccione un requerimiento asociado al patrón y realice la descomposiciónde tareas asociadas: Épica - Historia de Usuario - Al menos 3 tareas. (Añadirlo al README.md)
 
+Gestión de reservas de recursos
+Como usuario, quiero realizar reservas de recursos laboratorios, salones, oficinas, salas de estudio y equipos para poder utilizarlos según mis necesidades, cumpliendo con las reglas específicas de cada tipo de recurso.
 
+Historia de Usuario
+Realizar una reserva de recurso Como usuario profesor, monitor o estudiante, quiero seleccionar un recurso y realizar una reserva, para asegurar su disponibilidad en el horario deseado 
+
+El sistema debe permitir seleccionar el tipo de recurso laboratorio, salón, oficina, sala de estudio o equipo.
+El sistema debe validar las reglas específicas del recurso seleccionado.
+El sistema debe confirmar o denegar la reserva según las validaciones realizadas.
+
+Tarea 1: Implementar el patrón Factory Method para la creación de objetos de reserva según el tipo de recurso.
+
+Crear una clase base Reserva y subclases específicas para cada tipo de recurso 
+Diseñar una fábrica que genere instancias de las subclases según el tipo de recurso seleccionado.
+
+Tarea 2: Desarrollar la funcionalidad de validación de reglas específicas para cada tipo de recurso.
+
+Implementar métodos de validación en las subclases de Reserva para verificar tiempo, capacidad y disponibilidad.
+Integrar las validaciones con los datos obtenidos de sistemas externos 
+
+Tarea 3: Crear la interfaz de usuario para la selección de recursos y la gestión de reservas.
+
+Diseñar un formulario que permita al usuario ingresar los datos de la reserva 
+Mostrar mensajes de confirmación o denegación según el resultado de las validaciones.
+Esta descomposición asegura que el patrón Factory Method sea utilizado para gestionar la creación de reservas, mientras se desarrollan las validaciones y la interfaz de usuario necesarias para cumplir con la historia de usuario.
 
 
 
