@@ -39,6 +39,22 @@ b. Tipo de patrón (creacional, estructural o de comportamiento).
 c. Justificación de la decisión.
 
 Respuesta:
+2.1 a) El primer patron que usare sera Factory Method contructor visual 
+
+2.1 b) Este tipo de patron es de la categoria creacional 
+
+2.1 c) Usare este patron de la categoria creacional ya que este es un patron que nos permite crear una interfaz para crear objetos en las superclases, esto nos permite actualizar el SILABINFO con sus categorias a la par para que visualmente se vean los cambios, esto permitiendonos mantener lo solicitado que era mantener el diseño alusivo al programa de ingeniera de sistemas a su vez que mantiene una tipologia apropiada
+
+2.2) a) El segundo patron que usare para esto sera el de Builder 
+
+2.2) b) Este tipo de patron es de la categoria estructural 
+
+2.2) c) Usare este tipo de patron Builder ya que este nos permite crear/construir objetos de manera secuencial por lo que para la creacion y procesamiento de las listas en la base de datos ya que debido a la estructura de estas ejem: 2083853,LauraHerrera,laura.herrera@escuelaing.edu.c  para listas de personas o tambien para las de materias <img width="665" height="350" alt="image" src="https://github.com/user-attachments/assets/baf0e092-fd7e-4903-ab54-a5abbad9e081" />
+Por lo que el uso de este patron nos permite agregar diferentes asignaturas de diferentes tipos y de diferentes plan de estudio a su vez que de su nivel por lo que el patron con una misma estructura nos permite crear varios objetos en sus categorias y asi poder ampliar y gestionar de una manera mas eficiente 
+
+
+
+
 
 
 
