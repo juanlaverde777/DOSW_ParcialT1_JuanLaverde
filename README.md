@@ -22,15 +22,14 @@ Los tipos de recursos que se desean gestionar por medio de Silabinfo son:
 
 ● Equipos (Ej.: Computadores para sustentaciones de materias específicas).
 
-#### 1. Realice el diagrama de contexto con las generalidades de su sistema.
+#### 1. Realice el diagrama de contexto con las generalidades de su sistema
 (Añadirlo al README.md)
 
 Respuesta:
 
 <img width="865" height="649" alt="image" src="https://github.com/user-attachments/assets/729af901-f3f8-4753-9fd3-859d7ec01469" />
 
-#### 2. Identifique 2 patrones de diseño que puedan aplicarse al caso de estudio,
-especificando por cada uno:
+#### 2. Identifique 2 patrones de diseño que puedan aplicarse al caso de estudio,especificando por cada uno:
 
 a. Nombre del Patrón
 
@@ -51,6 +50,30 @@ Respuesta:
 
 2.2) c) Usare este tipo de patron Builder ya que este nos permite crear/construir objetos de manera secuencial por lo que para la creacion y procesamiento de las listas en la base de datos ya que debido a la estructura de estas ejem: 2083853,LauraHerrera,laura.herrera@escuelaing.edu.c  para listas de personas o tambien para las de materias <img width="665" height="350" alt="image" src="https://github.com/user-attachments/assets/baf0e092-fd7e-4903-ab54-a5abbad9e081" />
 Por lo que el uso de este patron nos permite agregar diferentes asignaturas de diferentes tipos y de diferentes plan de estudio a su vez que de su nivel por lo que el patron con una misma estructura nos permite crear varios objetos en sus categorias y asi poder ampliar y gestionar de una manera mas eficiente 
+
+#### Identifique 5 requerimientos del sistema y clasifíquelos en funcionales (3) y no funcionales (2). Garantiza que al menos un requerimiento funcionalseleccionado utilice un patrón identificado. (Añadirlo al README.md) 
+
+Respuesta: 
+
+Requerimientos del sistema:
+
+#### Requerimientos funcionales:
+
+Gestión de reservas para diferentes tipos de recursos laboratorios, salones, oficinas, salas de estudio y equipo, Utiliza el patrón Factory Method para crear objetos de reserva según el tipo de recurso, permitiendo extender la funcionalidad de Silabinfo de manera flexible y escalable.
+
+Validación de usuarios y reglas específicas para cada tipo de recurso:
+El sistema debe validar si el usuario cumple con los requisitos profesor, monitor o estudiante y las reglas de tiempo, capacidad y disponibilidad antes de confirmar la reserva.
+
+Integración con sistemas externos Enlace y Recursos Humanos:
+Silabinfo debe obtener información de materias, profesores y estudiantes desde sistemas externos, validando que los datos cumplan con los formatos requeridos.
+
+#### Requerimientos no funcionales:
+
+Interfaz de usuario responsiva y con diseño alusivo al programa de Ingeniería de Sistemas:
+La aplicación debe mantener colores y tipografía legibles, garantizando una experiencia de usuario agradable.
+
+Alto rendimiento en la validación y procesamiento de reservas:
+El sistema debe ser capaz de procesar las solicitudes de reserva en menos de 2 segundos, incluso con múltiples usuarios concurrentes.
 
 
 
